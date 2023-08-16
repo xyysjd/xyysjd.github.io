@@ -17,9 +17,9 @@ function  create() {
         alert("本地节点文件路径不能为空！");
         return false;
     }
-    kd.href = 'http://localhost:25500/sub?target='+subtype.value+'&url='+encodeURIComponent((filepath.value).replace(/\n/g,"|"))+'&insert=false'; 
+    kd.href = 'http://127.0.0.1:25500/sub?target='+subtype.value+'&url='+encodeURIComponent((filepath.value).replace(/\n/g,"|"))+'&insert=false'; 
     kd.style = ''; 
-    kd.innerText = 'http://localhost:25500/sub?target='+subtype.value+'&url='+encodeURIComponent((filepath.value).replace(/\n/g,"|"))+'&insert=false'; 
+    kd.innerText = 'http://127.0.0.1:25500/sub?target='+subtype.value+'&url='+encodeURIComponent((filepath.value).replace(/\n/g,"|"))+'&insert=false'; 
 }
    </script>
    <div id="pagewrap">
